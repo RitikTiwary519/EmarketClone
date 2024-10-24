@@ -29,7 +29,7 @@ const sublogo='https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/im
 const Header = () => {
     return (
     <StyleHeader>
-        <Toolbar>
+        <Toolbar style={{minHeight:55}}>
         <Component>
             <img src={logo} alt="Flipkart" style={{width:75}}/>
             <Box style={{display:'flex'}}>
