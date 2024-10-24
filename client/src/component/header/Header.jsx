@@ -39,7 +39,6 @@ const Header = () => {
                 <PlusImage src={sublogo} alt='sub-logo'/>
             </Box>
         </Component>
-
         </Toolbar>
     </StyleHeader>
     )
